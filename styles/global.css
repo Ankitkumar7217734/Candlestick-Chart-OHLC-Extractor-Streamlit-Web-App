@@ -1,0 +1,25 @@
+/* ── Global font ── */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+html,
+body,
+[class*="css"] {
+  font-family: "Inter", sans-serif;
+}
+
+/* ── Main container padding ── */
+.block-container {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  max-width: 1000px;
+}
+
+/* ── Typography override ── */
+h1,
+h2,
+h3 {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  color: #0f172a !important; /* text-slate-900 */
+}

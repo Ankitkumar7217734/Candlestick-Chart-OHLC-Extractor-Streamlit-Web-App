@@ -1,0 +1,63 @@
+/* ── Divider ── */
+.styled-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #dbeafe, transparent);
+  margin: 1.5rem 0;
+}
+
+/* ── Alerts ── */
+div[data-testid="stAlert"] {
+  border-radius: 10px !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+/* ── Upload prompt card ── */
+.upload-prompt {
+  background: #ffffff;
+  border: 2px dashed #bfdbfe;
+  border-radius: 14px;
+  padding: 2.7rem 2rem;
+  text-align: center;
+  color: #475569;
+  font-size: 1rem;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.7);
+}
+
+.upload-prompt .upload-icon {
+  font-size: 2.8rem;
+  margin-bottom: 0.6rem;
+  color: #2563eb;
+}
+
+/* ── DataFrame ── */
+[data-testid="stDataFrame"] {
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}
+
+/* ── Spinner ── */
+[data-testid="stSpinner"] p {
+  color: #64748b !important;
+}
+
+/* ── Tags ── */
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.badge-bull {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.badge-bear {
+  background: #fee2e2;
+  color: #dc2626;
+}

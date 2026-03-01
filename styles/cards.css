@@ -1,0 +1,46 @@
+/* ── Section card ── */
+.section-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow:
+    0 4px 14px -8px rgba(15, 23, 42, 0.2),
+    0 1px 3px rgba(15, 23, 42, 0.06);
+}
+
+/* ── Metric cards ── */
+div[data-testid="metric-container"] {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+div[data-testid="metric-container"]:hover {
+  transform: translateY(-2px);
+  border-color: #bfdbfe;
+  box-shadow:
+    0 8px 20px -12px rgba(37, 99, 235, 0.5),
+    0 2px 6px rgba(15, 23, 42, 0.08);
+}
+
+div[data-testid="metric-container"] label {
+  color: #64748b !important;
+  font-size: 0.76rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+}
+
+div[data-testid="metric-container"] [data-testid="stMetricValue"] {
+  font-size: 1.9rem !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+}

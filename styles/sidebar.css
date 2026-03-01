@@ -1,0 +1,40 @@
+/* ── Sidebar ── */
+section[data-testid="stSidebar"] {
+  background: #f8fafc;
+  border-right: 1px solid #e2e8f0;
+}
+
+section[data-testid="stSidebar"] .block-container {
+  padding-top: 1.5rem;
+}
+
+.sidebar-logo {
+  text-align: center;
+  padding: 0.5rem 0 1.2rem 0;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 1rem;
+}
+
+.sidebar-logo .logo-text {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: -0.03em;
+}
+
+.sidebar-logo .logo-sub {
+  font-size: 0.72rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  margin-top: 3px;
+}
+
+.sidebar-section-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #475569;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin: 1.2rem 0 0.45rem 0;
+}

@@ -1,0 +1,24 @@
+# ── Streamlit Web App — required packages ────────────────────────────────────
+
+# Web framework
+streamlit>=1.32.0
+streamlit-cropper>=0.2.1
+
+# YOLO model inference
+ultralytics>=8.0.0
+
+# Image processing
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
+
+# Data handling & display
+pandas>=2.0.0
+
+# Interactive chart
+plotly>=5.18.0
+
+# Optional — full pipeline mode (TradingView preprocessor + OCR)
+# Comment out if you only use YOLO-only mode
+easyocr>=1.7.0
+pytesseract>=0.3.10
